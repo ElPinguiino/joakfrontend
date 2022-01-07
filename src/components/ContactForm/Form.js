@@ -29,7 +29,7 @@ const Form = () => {
 
         await axios({
             method: 'post',
-            url:'http://127.0.0.1:8000/api/contactform/',
+            url:'http://172.105.251.36:8000/api/contactform/',
             data: formField
           }).then(response=>{
             console.log(response.data);

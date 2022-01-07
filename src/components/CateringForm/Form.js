@@ -50,11 +50,10 @@ const Form = () => {
         e.preventDefault();
         await axios({
             method: 'post',
-            url: 'http://127.0.0.1:8000/api/cateringform/',
+            url: 'http://172.105.251.36:8000/api/cateringform/',
             data: formField
         }).then((response) => {
             console.log(response.data);
-            // history.push('/')
         }).catch(error => console.error(error));
     }
 
