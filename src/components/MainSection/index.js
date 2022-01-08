@@ -17,7 +17,7 @@ const MainSection = () => {
                     <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
                 </MainSectionBg>
                 <MainSectionContent>
-                    <MainSectionH1>Welcome to Juan Of A Kind!</MainSectionH1>
+                    <MainSectionH1>Test 1 2 1 2</MainSectionH1>
                     <MainSectionP>
                         Best Beef Quesabirria Tacos in Salt Lake Valley!
                     </MainSectionP>
