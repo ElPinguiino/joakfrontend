@@ -7,7 +7,7 @@ const CarouselComponent = () => {
     const [reviews, setReviews] = useState([])
 
     const getReviews = async () => {
-        const response = await axios.get('http://127.0.0.1:8000/api/reviewform/')
+        const response = await axios.get('/api/reviewform/')
         setReviews(response.data)
     }
 
