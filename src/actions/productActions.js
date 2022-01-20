@@ -13,7 +13,7 @@ export const listProducts = () => async (dispatch) => {
     try{
         dispatch({ type: PRODUCT_LIST_REQUEST })
 
-        const { data } = await axios.get('/api/product/');
+        const { data } = await axios.get('http://172.105.251.36:8000/api/product/');
 
         dispatch({
             type: PRODUCT_LIST_SUCCESS,
